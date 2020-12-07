@@ -82,7 +82,8 @@ class Set {
 
         return newSet;
     }
-
+    
+    //this method will check if this instance set object is a subset of the given set
     isSubsetOf(set) {
         return this.values().every(value => set.has(value));
     }
